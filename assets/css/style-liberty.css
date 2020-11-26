@@ -10711,7 +10711,45 @@ h3.global-white {
 
 .w3l-gallery2 .fadeIn-right {
   left: 80%; }
+                                           /* //card section added */
+  .card {
+    color: rgb(255, 255, 255);
+    float: left;
+    width: calc(23%);
+     /* width: 100px; */
+    padding: 10px;
+    border:none;
+    margin: 10px;
+    height: 20%;
+ }
+ .card2{
+  color: rgb(255, 255, 255);
+  float: left;
+  width: calc(18%);
+   /* width: 100px; */
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+  height: 20%;
 
+ }
+ .card p {
+    font-size: 18px;
+ }
+ .cardContainer:after {
+    content: "";
+    display: table;
+    clear: both;
+ }
+ @media screen and (max-width: 600px) {
+    .card {
+       width: 45%;
+    }
+    .card2{
+      width:20%
+    }
+ } 
+                                           /* //card section added */
 @-webkit-keyframes smartphoto {
   from {
     opacity: 0; }
