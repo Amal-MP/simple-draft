@@ -10610,7 +10610,7 @@ h3.global-white {
   background-attachment: fixed; }
 
 .w3l-services2 .features-with-17-left2 p {
-  color: #d0d0d0;
+  color:#59cdff;
   margin-top: 10px;
   font-size: 15px;
   line-height: 25px; }
@@ -10743,10 +10743,10 @@ h3.global-white {
  }
  @media screen and (max-width: 600px) {
     .card {
-       width: 45%;
+       width: 100%;
     }
     .card2{
-      width:20%
+      width:100%
     }
  } 
                                            /* //card section added */
